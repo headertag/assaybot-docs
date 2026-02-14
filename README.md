@@ -8,18 +8,27 @@ coverY: 0
 
 # About Assaybot
 
-Assaybot is Index Exchange's AI powered automated content analysis crawler designed to ensure brand safety across our advertising exchange. The bot analyzes web page content to detect potential brand safety violations, helping to maintain high-quality inventory standards and protect advertiser interests.
+Assaybot is Index Exchange's automated content analysis crawler designed to ensure brand safety across our advertising exchange. It uses a multi-stage AI classification pipeline to analyze web page content, detect potential brand safety concerns, and help maintain high-quality inventory standards that protect both advertiser and publisher interests.
 
 ### Purpose
 
 Assaybot operates as part of Index Exchange's quality assurance infrastructure. The system:
 
-* Analyzes publisher page content for brand safety compliance
-* Identifies potential violations including adult content, hate speech, and other harmful material
-* Maintains inventory quality standards across Index Exchange's supply network
-* Operates independently of the latency-sensitive ad serving path
+* Analyzes publisher page content for brand safety compliance using industry-leading AI models
+* Identifies potential concerns including adult content, hate speech, violence, CSAM and other material that may affect advertiser confidence
+* Helps publishers maintain and grow advertiser demand by ensuring inventory meets brand safety standards
+* Operates entirely outside of the ad serving path — it has zero impact on ad delivery latency or page load performance
 
-Assaybot does not affect your site's search engine rankings or visibility. It is exclusively used for content moderation and brand safety assessment within Index Exchange's advertising ecosystem.
+### How It Benefits Publishers
+
+Brand safety is a shared priority. When advertisers trust the quality of your inventory, it drives stronger demand and better monetization outcomes. Assaybot helps by:
+
+* Proactively identifying content issues before they affect your revenue
+* Providing transparent, consistent quality assessments across the Index Exchange
+* Reducing the need for manual review processes that can delay issue resolution
+* Ensuring your inventory remains eligible for premium advertiser demand
+
+Assaybot does not affect your site's search engine rankings or visibility. It does not index content for public search, and it does not redistribute your content in any form. It is exclusively used for content quality assessment within Index Exchange's advertising ecosystem.
 
 ***
 

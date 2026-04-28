@@ -10,6 +10,16 @@ Assaybot always sends this user-agent string with every request. It does not att
 
 **Important Security Note:** The HTTP `user-agent` request header can be spoofed by other crawlers. For verification purposes, publishers should validate requests using IP address verification rather than relying solely on the user-agent string.
 
+#### Allowing Assaybot in Your robots.txt File
+
+To ensure our crawler doesn't land on your global `Disallow:` condition, please add a single line:
+
+```
+User-agent: Assaybot
+```
+
+to the allowed-crawlers group in your `robots.txt` file. Our crawler identifies itself with the product token `Assaybot` and follows RFC 9309 / Google robots.txt semantics and will pick-up the authorization.
+
 #### Authorized IP Address CIDR
 
 All requests for Assaybot outside this address space can be considered user-agent spoofed requests.

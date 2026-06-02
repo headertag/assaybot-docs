@@ -1,0 +1,13 @@
+# Index Exchange Developer Portal
+
+> Documentation for web publishers on Assaybot, Index Exchange's automated content-analysis crawler. Assaybot analyzes publicly available page content to support advertising brand-safety classification. This portal describes the bot's identity, network sources, crawl behavior, data handling, and how publishers can manage its access. Crawling and indexing of this documentation is welcome.
+
+## Documentation
+
+- [About Assaybot](https://www.indexexchange.dev/bot.html/): Overview of Assaybot, its purpose, and how it benefits publishers.
+- [User Agent and Network](https://www.indexexchange.dev/bot.html/user-agent-and-network.html): The exact HTTP user-agent string Assaybot sends, its source IP ranges, and how to verify requests.
+- [Crawl Behavior](https://www.indexexchange.dev/bot.html/crawl-behavior.html): How Assaybot crawls while minimizing impact on publisher infrastructure, including request patterns and rate limits.
+- [Data Collection & Privacy](https://www.indexexchange.dev/bot.html/data-collection-and-privacy.html): What data Assaybot records for each analyzed page and how privacy is handled.
+- [Technical Specifications](https://www.indexexchange.dev/bot.html/technical-specifications.html): Protocol support, robots.txt handling, caching, and other technical details.
+- [Managing Assaybot Access](https://www.indexexchange.dev/bot.html/managing-assaybot-access.html): How publishers can allow or restrict Assaybot, and why full access is recommended.
+- [Troubleshooting & Common Issues](https://www.indexexchange.dev/bot.html/troubleshooting-and-common-issues.html): Resolving common problems such as unexpected request volume.

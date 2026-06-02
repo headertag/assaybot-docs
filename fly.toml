@@ -1,0 +1,22 @@
+# Fly.io config for the Assaybot documentation site.
+# Change `app` to a globally-unique name and `primary_region` to your nearest
+# region (run `fly platform regions` to list options) before first deploy.
+app = "assaybot-docs"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 80
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1

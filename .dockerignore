@@ -1,0 +1,5 @@
+.git
+.github
+book
+node_modules
+*.log

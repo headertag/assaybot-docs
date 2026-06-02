@@ -1,12 +1,8 @@
----
-description: Information for web publishers on Index Exchange's site crawler bot
-cover:
-  light: .gitbook/assets/Gemini_Generated_Image_dje3mqdje3mqdje3.png
-  dark: .gitbook/assets/Gemini_Generated_Image_djnn7mdjnn7mdjnn.png
-coverY: 0
----
-
 # About Assaybot
+
+![Assaybot](../assets/cover-light.png)
+
+> Information for web publishers on Index Exchange's site crawler bot.
 
 Assaybot is Index Exchange's automated content analysis crawler designed to ensure brand safety across our advertising exchange. It uses a multi-stage AI classification pipeline to analyze web page content, detect potential brand safety concerns, and help maintain high-quality inventory standards that protect both advertiser and publisher interests.
 

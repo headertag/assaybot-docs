@@ -1,0 +1,48 @@
+/* Index Exchange branding: logo + title in the menu bar.
+   The logo+title group must behave like mdBook's original .menu-title
+   (flex:1 + min-width:0) so the title truncates instead of overflowing the
+   viewport on small screens. */
+.menu-title-link {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-width: 0; /* allow children to shrink below content width */
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-title-link:hover {
+    text-decoration: none;
+}
+
+.menu-logo {
+    height: 22px;
+    width: 22px;
+    flex-shrink: 0; /* logo keeps its size; only the text shrinks */
+    display: block;
+}
+
+.menu-title-link .menu-title {
+    flex: 0 1 auto;
+    margin: 0;
+    /* Body-sized Open Sans, but bold. */
+    font-size: 1.6rem;
+    font-weight: 700;
+    /* On narrow screens, wrap onto multiple lines instead of truncating
+       with an ellipsis. */
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    line-height: 1.2;
+}
+
+/* Let the menu bar grow taller when the title wraps, instead of clipping it.
+   It is position:sticky and in normal flow, so a taller bar pushes content
+   down rather than overlapping it. */
+#mdbook-menu-bar {
+    height: auto;
+    min-height: var(--menu-bar-height);
+    align-items: center;
+}

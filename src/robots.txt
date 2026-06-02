@@ -1,0 +1,8 @@
+# Index Exchange Developer Portal
+# Crawling is welcome and encouraged — including AI / LLM crawlers.
+# There are no disallowed paths.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.indexexchange.dev/sitemap.xml

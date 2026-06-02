@@ -36,6 +36,4 @@ Assaybot fully respects the Robots Exclusion Standard. Before crawling any page,
 
 robots.txt responses are cached so that your server is not repeatedly queried for the same file.
 
-{% hint style="info" %}
-**Publisher Recommendation**: Publishers may add robots.txt rules for Assaybot at any time. Note: restricting access may impact eligibility to transact on Index Exchange for certain inventory. Exceptions to the robots.txt policy will be handled on a case-by-case basis through your account representative.
-{% endhint %}
+> ℹ️ **Publisher Recommendation**: Publishers may add robots.txt rules for Assaybot at any time. Note: restricting access may impact eligibility to transact on Index Exchange for certain inventory. Exceptions to the robots.txt policy will be handled on a case-by-case basis through your account representative.

@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-start; /* left-align the logo + title */
-    gap: 0.5rem;
+    gap: 1rem; /* breathing room between the logo and the title text */
     min-width: 0; /* allow children to shrink below content width */
     text-decoration: none;
     color: inherit;
@@ -27,6 +27,9 @@
 .menu-title-link .menu-title {
     flex: 0 1 auto;
     margin: 0;
+    /* Left-align, including when the title wraps to multiple lines
+       (mdBook's default .menu-title is text-align: center). */
+    text-align: left;
     /* Body-sized Open Sans, but bold. */
     font-size: 1.6rem;
     font-weight: 700;

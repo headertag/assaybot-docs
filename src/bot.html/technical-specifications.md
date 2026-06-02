@@ -27,7 +27,9 @@
 
 ### robots.txt Compliance
 
-Assaybot fully respects the Robots Exclusion Standard. Before crawling any page, Assaybot checks the site's robots.txt file and honors all applicable directives, including:
+Assaybot fully respects the Robots Exclusion Standard. Please note, in exceptional cases if your inventory is classified as higher risk, the team may request a robots.txt exception to be applied to one or more of your domains but this is extremely rare. 
+
+Before crawling any page, Assaybot checks the site's robots.txt file and honors all applicable directives, including:
 
 * `User-agent: Assaybot` specific rules (checked first)
 * `User-agent: *` wildcard rules (used as fallback)

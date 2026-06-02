@@ -58,3 +58,49 @@ html:not(.js) {
     --links: #355e3b;
     --sidebar-active: #355e3b;
 }
+
+/* Page footer: corporate logo, copyright, and legal links. */
+.site-footer {
+    margin-top: 4rem;
+    padding: 2rem 0 1rem;
+    border-top: 1px solid var(--table-border-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem 2.5rem;
+    font-size: 1.4rem;
+}
+
+.site-footer-logo {
+    display: inline-flex;
+}
+
+.site-footer-logo svg {
+    height: 26px;
+    width: auto;
+    display: block;
+    fill: var(--fg); /* match body text color across themes */
+}
+
+.site-footer-copyright {
+    margin: 0;
+    opacity: 0.7;
+}
+
+/* Push the links to the right of the logo + copyright. */
+.site-footer-links {
+    margin-inline-start: auto;
+}
+
+.site-footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.5rem;
+}
+
+.site-footer-links li {
+    margin: 0;
+}

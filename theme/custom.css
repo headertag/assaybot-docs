@@ -6,7 +6,7 @@
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* left-align the logo + title */
     gap: 0.5rem;
     min-width: 0; /* allow children to shrink below content width */
     text-decoration: none;
@@ -45,4 +45,13 @@
     height: auto;
     min-height: var(--menu-bar-height);
     align-items: center;
+}
+
+/* Brand accent: use hunter green instead of mdBook's default blue for links
+   and the active sidebar entry. Loaded after the theme CSS, so these win for
+   the light theme (the default). */
+.light,
+html:not(.js) {
+    --links: #355e3b;
+    --sidebar-active: #355e3b;
 }
